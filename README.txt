@@ -1,5 +1,8 @@
 FPGA Isometric Shooter Game
 
+Middle East Technical University
+Electrical & Electronics Engineering
+
 This project is done for the laboratory EE314 Term Project Spring 2024.
 Project Overview
 This project implements an Isometric Shooter Game on an FPGA platform. It utilizes various modules to handle game mechanics, user input, display output, and other functionalities.
