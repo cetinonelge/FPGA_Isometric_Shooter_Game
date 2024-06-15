@@ -8,6 +8,7 @@ Project Overview
 This project implements an Isometric Shooter Game on an FPGA platform. It utilizes various modules to handle game mechanics, user input, display output, and other functionalities.
 
 YouTube Link for Gameplay: https://youtu.be/P4vIjceiqJQ
+DE1-SoC & 5CSEMA5 - Programmer Ready Files in ZIP.
 
 Modules Explanation
 1. FPGA_Isometric_Shooter_Game
