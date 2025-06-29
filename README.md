@@ -28,7 +28,7 @@ Game logic, graphics, user input, and score display are handled entirely in hard
 | 2 | **`gameplay_enemy_mechanics`**<br><sub>(SystemVerilog 2005)</sub> | Spawns enemies, updates their movement, detects collisions; overall gameplay FSM. Example usage shown in included image. | clock, pixel x/y, background RGB, reset, ship angle, shoot_enable, mode switch, `game_over`, `score`, `KEY[2]` |
 | 3 | **`spaceship_generator`** | Draws the player ship, handles ship-to-background occlusion & colour. | clock, pixel x/y, shoot keys, mode switch, `game_over`, `KEY[2]` |
 | 4 | **`spaceship_movement`** | Reads push-buttons to update ship position. | `KEY[1]` (UP), `KEY[0]` (DOWN) |
-| 5 | **`vga_main`** ★ | Generates 25 MHz VGA pixel clock, HS/VS, and active-video region (<https://github.com/aulich>) – see page 38 of the tutorial. | 50 MHz clk |
+| 5 | **`vga_main`** ★ | Generates 25 MHz VGA pixel clock, HS/VS, and active-video region – see page 38 of the tutorial. | 50 MHz clk |
 | 6 | **`vga_pixel_generator`** | Combines ship, enemies, and background into final RGB for each pixel. | clock, pixel x/y, colour buses |
 | 7 | **`led_game_over`** | Flashes on-board LEDs when the player loses. | clock, `game_over` |
 | 8 | **`lfsr_random_enemy_index`** | 15-bit LFSR used for pseudo-random enemy spawn columns. | clock |
