@@ -8,9 +8,8 @@ Middle East Technical University, Department of Electrical & Electronics Enginee
 This project implements a real-time **isometric shooter** on an **Altera DE1-SoC** development board (Cyclone V 5CSEMA5).  
 Game logic, graphics, user input, and score display are handled entirely in hardware with Verilog / SystemVerilog modules.
 
-* **Playable demo:** <https://youtu.be/P4vIjceiqJQ>  
-* **Bitstreams / Programmer-ready files:** see [`DE1_SoC_ready_files.zip`](./DE1_SoC_ready_files.zip)
-
+* **Playable demo:** <https://youtu.be/P4vIjceiqJQ>
+  
 ## Hardware & Tools
 
 | Item | Details |
